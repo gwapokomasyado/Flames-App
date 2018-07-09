@@ -1,0 +1,155 @@
+
+body { 
+/*
+===================================
+        homepage background
+===================================
+*/
+    
+    background-image: url(img/homepagebg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0
+
+/*
+===================================
+        homepage background
+===================================
+*/
+/*
+        FONT DESIGN
+*/
+        
+
+}
+
+/*
+===================================
+        header
+===================================
+*/
+#header {
+    z-index: 99999;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    /* font color */
+}
+
+.hcontainer {
+    border: 4px solid hotpink;
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 102%;
+    background: rgba(255, 128, 255, 0.4);
+    z-index: 99999; 
+
+}
+
+/*
+===================================
+        footer
+===================================
+*/
+#footer {
+    z-index: 99999;
+    background-image: url(img/footerbg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 0;
+    margin-left: -10px;
+    width: 102%;
+    
+    
+}
+
+.fcontent {
+    line-height: 2.5;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    border: 1px solid darkslategray;
+    border-radius: 25px 10px 10px 10px;
+    background: lightpink;
+    padding: 7px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    border: 1px solid hotpink;
+    border-radius: 25px 10px 10px 10px;
+    background: blue;
+    transition: 1s;
+    padding: 7px;
+    color: white;
+}
+
+.fcontainer {   
+    margin-top: 75px;
+    margin-left: -10px;
+    bottom: 0;
+    width: 102%;
+    z-index: 99999; 
+}
+
+/*
+===================================
+        input
+===================================
+*/
+
+.icontent input{
+    position: fixed;
+    left: 38.5%;
+    border: 3px solid black;
+    border-radius: 15px 15px 5px 5px;
+    background: radial-gradient(lightpink, hotpink);
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+.icontent input:focus {
+    position: fixed;
+    left: 38.5%;
+    border: 3px solid black;
+    border-radius: 15px 15px 5px 5px;
+    background: hotpink;
+    color: cyan;
+}
+
+.icontent input::placeholder {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/*
+===================================
+        button
+===================================
+*/
+
+.clear, .submit, .gwapoKo {
+    position: fixed;
+    left: 46.95%;
+    background: radial-gradient(lightpink, hotpink);
+    font-size: 20px;
+    border-radius: 15px 15px 5px 5px;
+    border: 3px solid black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
